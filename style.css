@@ -25,12 +25,13 @@ p {
 
 #cv {
 	width: 90%;
-	max-width: 1000px;
+	max-width: 1500px;
 	background: #f3f3f3;
 	margin: 30px auto;
 }
 
 .mainDetails {
+	display:flex;
 	padding: 25px 35px;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
@@ -100,7 +101,7 @@ p {
 	margin:auto;
 	margin-top: 30px;
 	text-align: center;
-	float: left;
+	/* float: left; */
 }
 
 #contactDetails {
@@ -191,6 +192,25 @@ section:last-child {
 
 .keySkills ul li {
 	margin-bottom: 3px;
+}
+
+@media all and (min-width: 1000px) {
+		
+	.sectionTitle{
+		width:10%;
+		max-width: 200px;
+		min-width: 130px;
+	}
+	.sectionContent {
+		width:88%;
+		min-width: 800px;
+	}
+	
+	#contactDetails ul {
+		list-style-type: none;
+		font-size: 1.2em;
+		margin-top: 2px;
+	}
 }
 
 @media all and (min-width: 602px) and (max-width: 800px) {
